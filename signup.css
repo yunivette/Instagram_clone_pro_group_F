@@ -24,7 +24,7 @@ body{
     margin-top:-10px;
 }
 .parent{
-    border:1px solid gray;
+    border:.1px solid rgba(128, 128, 128, 0.336);
     width:350px;
     margin-left: 800px;
     padding-bottom:40px;
@@ -33,14 +33,13 @@ body{
     
 }
 .parent2{
-    border:.1px solid grey;
+    border:.1px solid rgba(128, 128, 128, 0.336);
     width:350px;
     margin-left: 800px;
     padding-bottom:-10px;
-    padding-top:px;
     margin-top:12px;
     background-color: white;
-    padding-top:25px;
+    padding-top:30px;
     
 }
 .line{
@@ -71,11 +70,21 @@ body{
     opacity:.9;
     font-size:15px;
 }
-.btn{
+.btn1{
     width: 278px;
     margin-left:35px;
     padding-top: 2px;
     padding-bottom:2px;
+    opacity:.8;
+}
+.btn2{
+    width: 278px;
+    margin-left:35px;
+    padding-top: 2px;
+    padding-bottom:2px;
+    color:white;
+    opacity:.7;
+    background-color: rgb(0, 140, 255);
 }
 .p1{
     margin-left:65px;
@@ -138,8 +147,16 @@ body{
     margin-top:-17px;
     margin-left:70px;
 }
+.get{
+    border:.1px solid rgba(128, 128, 128, 0.336);
+    width:350px;
+    margin-left: 800px;
+
+}
 .p8{
     margin-top:15px;
+    margin-left: 620px;
+    position: relative;
 }
 .sel{
     border-collapse: collapse;
@@ -153,6 +170,7 @@ body{
 .links{
     margin-top:90px;
     margin-left:390px;
+    position: ;
 }
 .link1{
     text-decoration: none;
@@ -171,4 +189,16 @@ body{
     opacity: .4;
     margin-left:910px;
     
+}
+.ref{
+    text-decoration:none;
+    color: blue;
+    opacity:1.5;
+    font-size:13px;
+
+}
+.ref1{
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+    font-size:15px;
 }
