@@ -141,6 +141,33 @@ input{
   }
 
 
+  .link1{
+    text-decoration: none;
+    color: black;
+    opacity:.4;
+    padding-left:10px;
+    font-size:13px;
+    
+}
+.linksss{
+    margin-top:-45px;
+}
+.link2{
+    text-decoration: none;
+    color: black;
+    opacity: .4;
+    margin-left:910px;
+    
+}
 
+.sel{
+  border-collapse: collapse;
+  width: 100px;
+  font-size:13px;
+  border: 0px;
+  opacity:.5;
+  margin-left:500px;
+  margin-top:10px;
+}
 
   
